@@ -46,7 +46,7 @@ package reg_intf;
         logic        ready;
     } reg_intf_resp_d32;
 
-    /// 32 bit Response packages
+    /// 64 bit Response packages
     typedef struct packed {
         logic [63:0] rdata;
         logic        error;
